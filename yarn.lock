@@ -1535,6 +1535,54 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
+"@doodaswap-libs/dooda-swap-core@^0.1.2":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@doodaswap-libs/dooda-swap-core/-/dooda-swap-core-0.1.3.tgz#c35f331c7bf0834a11058ed1cf0393b78be70b42"
+  integrity sha512-H3oswGz/7h56wv2mAN/uBkGsddg/onY2dzVr5XOSjs+e7WnDeB9s7ggYO+LW486jWKR2FBb2ZVKsebKUcOvEZg==
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
+"@doodaswap/eslint-config-dooda@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@doodaswap/eslint-config-dooda/-/eslint-config-dooda-1.2.0.tgz#c1c7ec2fdfaa6514591b00cb3e4e8f004c760505"
+  integrity sha512-ilee13Vb8SGZJy0Q/zVSM4NY6JienFtnQpMLjSgXNVG0KJbw67+BEabLoRkPBWMaIGw6z8PVeqB+chjm3kBW0g==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^4.7.0"
+    "@typescript-eslint/parser" "^4.7.0"
+    eslint-config-airbnb "^18.2.1"
+    eslint-config-prettier "^6.15.0"
+    eslint-plugin-import "^2.22.1"
+    eslint-plugin-jsx-a11y "^6.4.1"
+    eslint-plugin-react "^7.21.5"
+    eslint-plugin-react-hooks "^4.0.0"
+
+"@doodaswap/new-uikit@^0.55.0":
+  version "0.55.0"
+  resolved "https://registry.yarnpkg.com/@doodaswap/new-uikit/-/new-uikit-0.55.0.tgz#4d5dc81b913d47938e3c57b1f38a621b7da1b359"
+  integrity sha512-sALKZOsVXFPZyD2/4po24Q+am6YCIgmkVFOpDYh+CVFmIQB2bAU5yh7q/63GaNfKJRXHuE2h6uvX+DdopzWf+g==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    styled-system "^5.1.5"
+
+"@doodaswap/sdk@^2.4.8":
+  version "2.4.8"
+  resolved "https://registry.yarnpkg.com/@doodaswap/sdk/-/sdk-2.4.8.tgz#a9de06ba9e28852cf6123e53c4b075c5d437767d"
+  integrity sha512-0nF72aFSfEoLH/zRJ7GFxDpmdXgU58bFZaj5bOPiG2COr8Ye/3BSP09/ojkM5wzqLo10MrhdlHhEXeeZ7DrcSA==
+  dependencies:
+    "@doodaswap-libs/dooda-swap-core" "^0.1.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
@@ -2612,54 +2660,6 @@
   dependencies:
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
-
-"@pancakeswap-libs/pancake-swap-core@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/pancake-swap-core/-/pancake-swap-core-0.1.0.tgz#6957f1fa02170531a2ffbf95f2c0e145e9d21bc2"
-  integrity sha512-2jYiD1Ec3xAbP4JTa/Ozylx0xI4VwC7diCm5ak4AtGrIRhfRLSanaZSQdVpLigUnIFszma/4nVWtt3cup4Poxw==
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
-
-"@pancakeswap/eslint-config-pancake@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap/eslint-config-pancake/-/eslint-config-pancake-1.1.0.tgz#ddb916af3726359095207306cfc87098cec43f41"
-  integrity sha512-TGyHaDZjXPtubV39S4vPVVRZk9FgsSyBwP6qTP1/H0+nUoKEh+RIUs/nCVxZgN7f8MbbVioLg00gVqV0XI8a7Q==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.7.0"
-    "@typescript-eslint/parser" "^4.7.0"
-    eslint-config-airbnb "^18.2.1"
-    eslint-config-prettier "^6.15.0"
-    eslint-plugin-import "^2.22.1"
-    eslint-plugin-jsx-a11y "^6.4.1"
-    eslint-plugin-react "^7.21.5"
-    eslint-plugin-react-hooks "^4.0.0"
-
-"@pancakeswap/sdk@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap/sdk/-/sdk-2.4.0.tgz#5da040384419cb45ea2b6eee8104d05914e8bd28"
-  integrity sha512-c5cLOMVa/dlbVbURPpSY6oNSYm61xN5NgfoYCXY88NisHbgLWd/MNHoM98XjgeJFs7OlKcf4G7nui4XGM9lDSA==
-  dependencies:
-    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
-"@pancakeswap/uikit@^0.55.0":
-  version "0.55.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap/uikit/-/uikit-0.55.0.tgz#a783664997512d9199e87fe1cdd49627ec8dd5e6"
-  integrity sha512-JjVuJ8PnH11rDBNZalIfiRJqj/908EDoUjRVDSb0ITZD3KfR/eH9I+7g6bdbPiKyUxnNm3QWgqgqZ58zJBCL4w==
-  dependencies:
-    "@popperjs/core" "^2.9.2"
-    "@types/lodash" "^4.14.168"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-popper "^2.2.5"
-    styled-system "^5.1.5"
 
 "@pmmmwh/react-refresh-webpack-plugin@0.4.3":
   version "0.4.3"
