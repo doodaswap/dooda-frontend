@@ -1,6 +1,6 @@
 import React, { Fragment, memo } from 'react'
-import { Trade } from '@pancakeswap/sdk'
-import { Text, Flex, ChevronRightIcon } from '@pancakeswap/uikit'
+import { Trade } from '@doodaswap/sdk'
+import { Text, Flex, ChevronRightIcon } from '@doodaswap/new-uikit'
 import { unwrappedToken } from 'utils/wrappedCurrency'
 
 export default memo(function SwapRoute({ trade }: { trade: Trade }) {

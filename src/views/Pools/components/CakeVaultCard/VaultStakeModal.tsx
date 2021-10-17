@@ -11,7 +11,7 @@ import {
   AutoRenewIcon,
   CalculateIcon,
   IconButton,
-} from '@pancakeswap/uikit'
+} from '@doodaswap/new-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useWeb3React } from '@web3-react/core'
 import { useAppDispatch } from 'state'

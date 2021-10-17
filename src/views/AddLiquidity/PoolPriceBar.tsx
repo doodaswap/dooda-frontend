@@ -1,6 +1,6 @@
-import { Currency, Percent, Price } from '@pancakeswap/sdk'
+import { Currency, Percent, Price } from '@doodaswap/sdk'
 import React from 'react'
-import { Text } from '@pancakeswap/uikit'
+import { Text } from '@doodaswap/new-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { AutoColumn } from '../../components/Layout/Column'
 import { AutoRow } from '../../components/Layout/Row'
