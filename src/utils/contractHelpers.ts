@@ -68,7 +68,6 @@ import { ChainLinkOracleContract, FarmAuctionContract, PancakeProfileContract, P
 
 const getContract = (abi: any, address: string, signer?: ethers.Signer | ethers.providers.Provider) => {
   const signerOrProvider = signer ?? simpleRpcProvider
-  console.log('getContract', signerOrProvider)
   return new ethers.Contract(address, abi, signerOrProvider)
 }
 

@@ -24,8 +24,18 @@ const farms: SerializedFarmConfig[] = [
       97: '0xe0e92035077c39594793e61802a350347c320cf2',
       56: '',
     },
-    token: serializedTokens.wbnb,
-    quoteToken: serializedTokens.busd,
+    token: serializedTokens.busd,
+    quoteToken: serializedTokens.wbnb,
+  },
+  {
+    pid: 2,
+    lpSymbol: 'CAKE-BNB LP',
+    lpAddresses: {
+      97: '0x132359bDd375bC172E57dee392A876EE9C1167Df',
+      56: '',
+    },
+    token: serializedTokens.cake,
+    quoteToken: serializedTokens.wbnb,
   },
 ]
 

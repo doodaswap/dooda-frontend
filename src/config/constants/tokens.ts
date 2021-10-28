@@ -1681,7 +1681,7 @@ export const mainnetTokens = {
 export const testnetTokens = {
   wbnb: new Token(
     TESTNET,
-    '0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F',
+    '0xae13d989dac2f0debff460ac112a837c89baa7cd',
     18,
     'WBNB',
     'Wrapped BNB',
@@ -1689,7 +1689,7 @@ export const testnetTokens = {
   ),
   cake: new Token(
     TESTNET,
-    '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+    '0x7f152FFaBAB2e50C231893fF52b28738D287F857',
     18,
     'CAKE',
     'PancakeSwap Token',
@@ -1697,7 +1697,7 @@ export const testnetTokens = {
   ),
   busd: new Token(
     TESTNET,
-    '0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee',
+    '0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7',
     18,
     'BUSD',
     'Binance USD',
